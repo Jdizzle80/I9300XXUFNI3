@@ -23,7 +23,7 @@
 
 <!-- use empty string to specify no proxy or port -->
 <!-- This version must agree with that in apps/common/res/apns.xml -->
-	<NetworkInfos version="10">
+	<NetworkInfos version="8">
         <!-- USA  -->
         <DormPolicy plmn="31026"
             nwkname="T-Mobile"
