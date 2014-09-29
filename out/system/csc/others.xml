@@ -1,0 +1,14 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED001</Version>
+  <Country>SPAIN</Country>
+  <CountryISO>ES</CountryISO>
+  <SalesCode>PHE</SalesCode>
+  <FeatureSet>
+
+	<CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+	<CscFeature_Camera_ShutterSoundMenu>true</CscFeature_Camera_ShutterSoundMenu>
+	<CscFeature_RIL_DontUseSyscallForIntent>TRUE</CscFeature_RIL_DontUseSyscallForIntent>
+	
+  </FeatureSet>
+</SamsungMobileFeauture>

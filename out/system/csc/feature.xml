@@ -1,0 +1,115 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<!-- It can be added for each operators like below form
+
+<ABC>                       -> sales code
+<sapient>true</sapient>         -> feature1
+<burton>false</burton>          -> feature2
+<libtech>true</libtech>         -> feature3
+.
+.
+</ABC>
+
+each name of tags are will be environment variable with "ro.csc."
+ex) "ro.csc.sapient", "ro.csc.burton", "ro.csc.libtech" <== you could use them at any section.
+also, should be added between <FeatureSet>
+ and </FeatureSet> .
+jhwan.kim@hdlnc.com  -->
+<SamsungMobileFeature>
+
+<Country></Country>
+<CountryISO></CountryISO>
+<SalesCode></SalesCode>
+
+<!-- BTU -->
+<FeatureSet>
+
+<!-- Common -->
+<CscFeature_Common_DisablePhoneNumberFormatting>true</CscFeature_Common_DisablePhoneNumberFormatting>
+<CscFeature_Common_AllowExternalApkUsage>true</CscFeature_Common_AllowExternalApkUsage>
+
+
+<!-- Original -->
+<CscFeature_Email_UseFixedBgColorAsWhite>true</CscFeature_Email_UseFixedBgColorAsWhite>
+<CscFeature_Email_BackgroundColorWhite>true</CscFeature_Email_BackgroundColorWhite>
+<CscFeature_Message_SmsInputMode>automatic</CscFeature_Message_SmsInputMode>
+<CscFeature_Message_SmsMaxByte>140</CscFeature_Message_SmsMaxByte>
+<CscFeature_Launcher_DisablePageRotation>false</CscFeature_Launcher_DisablePageRotation>
+<CscFeature_Web_EnableDesktopSiteAsDefault>false</CscFeature_Web_EnableDesktopSiteAsDefault>
+<CscFeature_Gallery_AddAutoRotationIcon>false</CscFeature_Gallery_AddAutoRotationIcon>
+<CscFeature_Contact_UseSeparateAddressField>false</CscFeature_Contact_UseSeparateAddressField>
+
+<!-- Camera -->
+<CscFeature_Camera_ShutterSoundMenu>true</CscFeature_Camera_ShutterSoundMenu>
+<CscFeature_Camera_EnableCameraDuringCall>true</CscFeature_Camera_EnableCameraDuringCall>
+
+<!-- Message -->
+<CscFeature_Message_RecipientLimit>999</CscFeature_Message_RecipientLimit>
+<CscFeature_Message_SmsToMmsTextThreshold>999</CscFeature_Message_SmsToMmsTextThreshold>
+<CscFeature_Message_MaxSlideCount>999</CscFeature_Message_MaxSlideCount>
+<CscFeature_Message_ReplaceCRToNewLine>true</CscFeature_Message_ReplaceCRToNewLine>
+<CscFeature_Message_DisableConvertingEffectBetweenSMSMMS>true</CscFeature_Message_DisableConvertingEffectBetweenSMSMMS>
+<CscFeature_Message_DisableSmsToMmsConversionByTextInput>true</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
+<CscFeature_Message_EnableScheduledMessage>true</CscFeature_Message_EnableScheduledMessage>
+<CscFeature_Message_EnableScheduledMsgBox>true</CscFeature_Message_EnableScheduledMsgBox>
+
+<!-- Contacts -->
+<CscFeature_Contact_SetLinkCountMaxAs>999</CscFeature_Contact_SetLinkCountMaxAs>
+<CscFeature_Contact_EnableCallButtonInList>true</CscFeature_Contact_EnableCallButtonInList>
+
+<!-- RIL -->
+<CscFeature_RIL_ForceConnectMMS>true</CscFeature_RIL_ForceConnectMMS>
+
+<!-- Settings -->
+<CscFeature_Setting_EnableMenuBlockCallMsg>true</CscFeature_Setting_EnableMenuBlockCallMsg>
+<CscFeature_Setting_DisableMenuSoftwareUpdate>True</CscFeature_Setting_DisableMenuSoftwareUpdate>
+
+<!-- WEB -->
+<CscFeature_Web_AddOptionToTerminate>true</CscFeature_Web_AddOptionToTerminate>
+
+<!-- Wifi -->
+<CscFeature_Wifi_MaxClient4MobileAp>100</CscFeature_Wifi_MaxClient4MobileAp>
+
+<!-- Sip -->
+<CscFeature_Sip_UseSymbolInCMKey>true</CscFeature_Sip_UseSymbolInCMKey>
+<CscFeature_Sip_EnableSymbolInSecondary>en_GB;en_US;az;ca;cs;da;de;et;es;eu;el;fr;ga;gl;ka;hr;it;is;kk;lv;lt;hu;nb;nl;pl;pt;ru;ro;fi;sr;sk;s l;sv;tr;uk;ko;hy;bg;ar;fa;ur;iw;ja;th;vi;zh;uz;in;mk;ms</CscFeature_Sip_EnableSymbolInSecondary>
+
+<!-- KIES -->
+
+<!-- Calendar -->
+
+<!-- Call -->
+
+<!-- Clock -->
+
+<!-- Dialer -->
+
+<!-- Log -->
+
+<!-- Settings -->
+
+<!-- MMApp -->
+
+<!-- MyFiles -->
+
+<!-- Gallery -->
+
+<!-- Music -->
+
+<!-- MMFW -->
+
+<!-- NFC -->
+
+<!-- AppFW -->
+
+<!-- Email -->
+
+<!-- SEC FMRadio -->
+
+<!-- GMS -->
+
+<!-- Dialer / Logs -->
+
+<!-- RIL -->
+
+</FeatureSet>
+</SamsungMobileFeature>

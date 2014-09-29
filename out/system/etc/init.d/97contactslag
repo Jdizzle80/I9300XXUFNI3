@@ -1,0 +1,10 @@
+#!/system/bin/sh
+##### Avoid contacts lag ##### 
+
+while [ 1 ];
+do
+	echo "-20" > /proc/$(pidof com.android.contacts)/oom_score_adj
+	echo -17 > /proc/$(pidof com.android.contacts)/oom_adj
+	busybox renice -5 `pidof com.android.contacts`
+sleep 5
+done;
